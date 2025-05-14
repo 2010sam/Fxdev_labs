@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FXDEV Labs</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0e0e2c;
+      color: #e0e0e0;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: #11113f;
+      padding: 1.5rem 2rem;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+    }
+    header h1 {
+      margin: 0;
+      color: #00ffcc;
+      font-size: 2rem;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #00ffcc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .about {
+      background: #1a1a3d;
+      border-radius: 10px;
+      padding: 2rem;
+      box-shadow: 0 0 20px rgba(0, 255, 204, 0.1);
+    }
+    .about h2 {
+      color: #00ffcc;
+    }
+    footer {
+      background: #11113f;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FXDEV Labs</h1>
+    <nav>
+      <a href="#about">About Us</a>
+    </nav>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>FXDEV Labs is a fintech innovation hub and collaborative platform that unites Forex traders from around the globe. We specialize in merging market expertise with advanced technology to simplify and empower Forex trading for everyone.</p>
+
+    <p>Founded with the vision of creating community-driven solutions, FXDEV Labs offers a space for traders, developers, and analysts to exchange ideas and co-create tools and apps that enhance trading performance. Our primary focus is on building intelligent systems, data-driven strategies, and user-friendly interfaces that make trading easier, smarter, and more accessible.</p>
+
+    <p>At our core, we are more than just a business—we are a movement. A movement driven by innovation, collaboration, and a shared goal: to shape the future of Forex trading together.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 FXDEV Labs. All rights reserved.
+  </footer>
+</body>
+</html>
